@@ -1,8 +1,23 @@
 # rprover9
-A client to wrap a prover9 to be used for NLTK without installing prover9
+A client to wrap a prover9 to be used for NLTK without installing prover9.
 
+## Why do you need this?
 
-# Usage
+If you cannot build or install Prover9/Mace4, you can use this remote access to prover9 and mace4.
+
+It is highly recommended to use the original program here:
+https://www.cs.unm.edu/~mccune/prover9/
+
+## What?
+
+This is a web client that imitates prover9 and mace4 that is suitable for using with NLTK. 
+To secure the server the maxtime of prover and the search size of the model builder is fixed.
+
+## Requirements
+
+* aiohttp
+
+## How?
 
 ```
 import nltk
